@@ -1,0 +1,10 @@
+import random
+senha = ''
+caracteres = '1234567890qwertyuiopçlkjhgfdsazxcvbnm'
+
+for c in range(8):
+    senha += random.choice(caracteres)
+
+print('-'*15)
+print(senha.center(15))
+print('-'*15)
